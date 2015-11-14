@@ -1,0 +1,3615 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.gm-style img {
+    max-width: none;
+}
+
+/**
+ * Global partials: Typography, forms, site-wide changes.
+ */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+input {
+    outline: 0px;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+/*! normalize.css v2.1.0 | Base | MIT License | git.io/normalize */
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body > article {
+    margin-top: 30px;
+}
+/*! normalize.css v2.1.0 | Links | MIT License | git.io/normalize */
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+/*! normalize.css v2.1.0 | Typography | MIT License | git.io/normalize */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/*! normalize.css v2.1.0 | Embedded Content | MIT License | git.io/normalize */
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/*! normalize.css v2.1.0 | Figures | MIT License | git.io/normalize */
+figure {
+    margin: 0;
+}
+
+/*! normalize.css v2.1.0 | Forms | MIT License | git.io/normalize */
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+/*! normalize.css v2.1.0 | Tables | MIT License | git.io/normalize */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#header {
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 7px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 7px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.clearfix:before, #header:before, #header .logo-block h2:before, #header #block-system-main-menu ul:before, .clearfix:after, #header:after, #header .logo-block h2:after, #header #block-system-main-menu ul:after {
+    display: table;
+    content: "";
+}
+
+.mean-bar {
+    display: none;
+}
+
+.meanclose {
+    margin-top: 10px;
+}
+
+.clearfix:after, #header:after, #header .logo-block h2:after, #header #block-system-main-menu ul:after {
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: #d95f09 !important;
+    transition: color 0.15s ease 0s;
+}
+
+/**
+ * Defaults: For any general elements to apply to the whole page.
+ */
+/**
+* Typography: Headings, body text, lists, code, and more for a versatile and durable typography system.
+*/
+body {
+    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+a:link {
+    color: #2090b4;
+}
+
+a:visited {
+    color: #2090b4;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin-bottom: 0;
+}
+
+hr {
+    height: 1px;
+    border: 1px solid #666;
+    padding-bottom: -1px;
+    margin: 1.625em 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+::-moz-selection {
+    background: #66b360;
+    color: white;
+    text-shadow: none;
+}
+
+::selection {
+    background: #66b360;
+    color: white;
+    text-shadow: none;
+}
+
+/**
+* Form elements: Inputs, buttons, etc.
+*/
+input,
+button,
+select,
+textarea {
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+/**
+ * Typekit
+ */
+.wf-loading {
+    visibility: hidden;
+}
+
+.wf-active {
+    visibility: visible;
+}
+
+/**
+ * Containers
+ */
+#header-inner,
+#main,
+#footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.region-content {
+    padding-top: 50px !important;
+}
+/**
+ * Main Menu Styles
+ */
+#header {
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 0;
+    background: #502c13;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#header .logo-block {
+    margin-top: 6px;
+}
+
+@media (min-width: 48em) {
+    #header .logo-block {
+        margin-top: -74px;
+    }
+}
+
+#header .logo-block h2 {
+    width: 168px;
+    background: transparent url(../images/mayan-distribution-logo__stacked.png) no-repeat;
+}
+
+@media (min-width: 6.25em) {
+    #header .logo-block h2 {
+        margin: 0 0 0 10px;
+    }
+}
+
+@media (min-width: 19.375em) {
+    #header .logo-block h2 {
+        margin: 0 auto;
+    }
+}
+
+.no-mq #header .logo-block h2 {
+    margin: 0 auto;
+}
+
+#header .logo-block h2 a {
+    width: 100%;
+    min-height: 66px;
+    text-indent: -9999em;
+    text-align: center;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#header #sidr-wrapper-0 {
+    float: left;
+    margin-top: 5px;
+}
+
+#header #sidr-wrapper-0 a {
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-size: 38px;
+}
+
+#header #block-system-main-menu ul {
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    width: 96.5%;
+}
+
+.front  #block-system-main {
+    display: none;
+}
+
+@media (min-width: 48em) {
+    #header #block-system-main-menu ul {
+        width: 96.5%;
+    }
+}
+
+@media (min-width: 51.875em) {
+    #header #block-system-main-menu ul {
+        width: 94%;
+    }
+}
+
+@media (min-width: 56.25em) {
+    #header #block-system-main-menu ul {
+        width: 92%;
+    }
+}
+
+@media (min-width: 62.5em) {
+    #header #block-system-main-menu ul {
+        width: 90%;
+    }
+}
+
+.no-mq #header #block-system-main-menu ul {
+    width: 90%;
+}
+
+#header #block-system-main-menu ul li {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    padding: 0 1.25%;
+    float: left;
+}
+
+@media (min-width: 48em) {
+    #header #block-system-main-menu ul li {
+        padding: 0 1.25%;
+    }
+}
+
+@media (min-width: 51.875em) {
+    #header #block-system-main-menu ul li {
+        padding: 0 1.5%;
+    }
+}
+
+@media (min-width: 56.25em) {
+    #header #block-system-main-menu ul li {
+        padding: 0 1.75%;
+    }
+}
+
+@media (min-width: 62.5em) {
+    #header #block-system-main-menu ul li {
+        padding: 0 2%;
+    }
+}
+
+.no-mq #header #block-system-main-menu ul li {
+    padding: 0 2%;
+}
+
+#header #block-system-main-menu ul li.products, #header #block-system-main-menu ul li.breweries, #header #block-system-main-menu ul li.about {
+    float: left;
+}
+
+#header #block-system-main-menu ul li.menu-425, #header #block-system-main-menu ul li.menu-426, #header #block-system-main-menu ul li.menu-434 {
+    float: right;
+}
+
+.node-type-page .field-type-text-with-summary .field-item > center > h2 {
+    color: #ff6a00;
+    font-size: 30px;
+}
+
+.content .view-last-blog-posts,.view-blog {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.page-products .view-content .product-arrow {
+    display: none !important;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #ef7824;
+    float: left;
+    top: 17px;
+    margin-left: 10px;
+    position: relative;
+}
+
+#header #block-system-main-menu ul li a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    line-height: 80px;
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+#header #block-system-main-menu ul li a:hover {
+    color: #d95f09;
+    text-decoration: none !important;
+}
+
+/**
+Responsive menu styles
+*/
+  
+.header-active-link {
+    display: none !important;
+}
+
+#header #block-system-main-menu ul li a.active-trail {
+    color: #D95F09 !important;
+}
+
+.mean-nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #502c13;
+}
+
+.mean-nav ul li.last a {
+    padding-bottom: 0.65em;
+}
+
+.mean-nav ul li a {
+    border-top: 1px dashed rgba(215, 115, 68, 0.4);
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 0.6em 4% 0.55em;
+    width: 92%;
+}
+
+.mean-nav ul li a:hover,  .mean-nav ul li a:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+a.meanmenu-reveal {
+    width: 32px;
+    padding: 12px 16px 20px;
+    line-height: 32px;
+    text-align: right !important;
+    position: fixed !important;
+}
+
+.mean-bar {
+    positioN: fixed;
+    top: 0;
+}
+
+a.meanmenu-reveal span {
+    height: 5px;
+    margin-top: 4px;
+}
+
+/***** Slider *****/
+.slider {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+#banner-fade,
+#banner-slide,
+.view-product-types .view-content {
+    margin-bottom: 33px;
+    margin-top: 0px !important;
+}
+
+#block-mayan-panel1 {
+    position: relative;
+}
+
+#block-views-featured-products-block {
+    max-height: 600px;
+}
+/*.content,.slider {
+	height:inherit;
+}*/
+ul.bjqs-controls.v-centered li a {
+    display: block;
+    padding: 10px;
+    background: #502C13;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+ul.bjqs li img {
+    width: 100%;
+}
+
+ul.bjqs-controls.v-centered li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+ol.bjqs-markers li a {
+    padding: 7px 10px;
+    background: #fff;
+    color: #757575;
+    text-decoration: none !important;
+    display: block;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+
+div.contextual-links-wrapper {
+    z-index: 1 !important;
+}
+
+.not-front ol.bjqs-markers li a.active,
+.not-front ol.bjqs-markers li a:hover {
+    display: inline-block !important;
+    -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(rgba(0,0,0,.09)), to(rgba(0,0,0,0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(top, rgba(0,0,0,.09), rgba(0,0,0,0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(top, rgba(0,0,0,.09), rgba(0,0,0,0)) 1 100%;
+    border-width: 0 2px 0 2px;
+}
+
+.hilight-product-page {
+    -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(rgba(0,0,0,.09)), to(rgba(0,0,0,0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(top, rgba(0,0,0,.09), rgba(0,0,0,0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(top, rgba(0,0,0,.09), rgba(0,0,0,0)) 1 100%;
+    border-width: 0 2px 0 2px;
+}
+
+ol.bjqs-markers li.active-marker a,ol.bjqs-markers li a.active ,
+ol.bjqs-markers li a:hover {
+    color: #f08336;
+}
+
+.front ol.bjqs-markers li.active-marker a, .front ol.bjqs-markers li a:hover {
+    cursor: default !important;
+}
+
+.view-product-types .bjqs-slide {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+    max-height: 500px;
+    padding-bottom: 20px;
+}
+
+.view-product-types .bjqs-slide:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    bottom: -13px;
+    height: 10px;
+    left: 5%;
+    border-radius: 100px / 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+.node-type-product .desc-product > .field-name-body {
+    position: relative !important;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+	/*max-height: 500px;*/
+    padding-bottom: 20px;
+}
+
+.node-type-product .img-product img {
+    width: 100%;
+}
+
+.node-type-product .desc-product > .field-name-body:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    bottom: -13px;
+    height: 10px;
+    left: 5%;
+    border-radius: 100px / 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+.node-type-product .col-pro img {
+    padding-top: 0;
+    position: absolute;
+    bottom: 8px;
+    margin-left: -77px;
+}
+
+.node-type-product .view-more-products .col-pro {
+    margin: 10px 0 !important;
+}
+
+.node-type-product .view-more-products .col-pro .field-content {
+    min-height: 238px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.node-type-product .col-pro .views-field-title {
+    width: 180px;
+}
+
+.bjqs-caption {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.bjqs-caption strong {
+    font-size: 20px;
+    color: #f08336;
+}
+
+.front .bjqs-caption {
+    left: 0;
+}
+
+.bjqs-wrapper {
+    width: auto !important;
+	/*border-bottom: 1px solid #f0f0f0;*/;
+}
+
+.view-product-types .slider .bjqs-markers {
+    margin-top: -60px;
+    position: relative;
+    width: 370px;
+    left: 50% !important;
+    margin-left: -150px;
+}
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    left: 0;
+	/*display: none;*/;
+}
+
+li.bjqs-slide {
+    position: absolute;
+	/*display: none;*/
+    width: inherit !important;
+}
+
+ul.bjqs-controls {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+ul.bjqs-controls.v-centered li a {
+    position: absolute;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+    right: 0;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+    left: 0;
+}
+
+ol.bjqs-markers {
+    list-style: none outside none;
+    margin: 0px auto 0;
+    padding: 0;
+    width: 300px;
+}
+
+ol.bjqs-markers.h-centered {
+    text-align: center;
+}
+
+ol.bjqs-markers li {
+    display: block;
+    float: left;
+}
+
+ol.bjqs-markers li a {
+    display: inline-block;
+}
+
+.bjqs-caption {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 1% 2%;
+    position: absolute;
+    right: 0;
+    top: 14%;
+    width: 40%;
+}
+
+.bjqs-caption h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #d3722e;
+    font-weight: normal;
+}
+
+.front ol.bjqs-markers {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    vertical-align: top;
+    bottom: 40px;
+    left: 100% !important;
+    width: 100px;
+    margin-left: -200px;
+    right: 0 !important;
+}
+
+.front ol.bjqs-markers.h-centered {
+    text-align: right;
+}
+
+.front ol.bjqs-markers li {
+    display: inline-block;
+}
+
+.front ol.bjqs-markers li a {
+    padding: 0px 5px;
+    background: #fff;
+    color: transparent;
+    margin: 2px;
+    text-decoration: none !important;
+    border-radius: 26px;
+    height: 18px;
+}
+
+.front ol.bjqs-markers li a:hover {
+    color: transparent !important;
+}
+
+.front .bjqs-caption {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 1% 2%;
+    position: absolute;
+    right: 0;
+    top: 14%;
+    width: 40%;
+}
+
+.front ol.bjqs-markers li.active-marker a, .front ol.bjqs-markers li a:hover {
+    color: transparent;
+    background-color: #f08336 !important;
+}
+
+.front .bjqs-caption h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #d3722e;
+    font-weight: normal;
+}
+/*** OUR BEERS **/
+
+.about-our-beers {
+    min-height: 120px;
+    overflow: hidden;
+    max-width: 100%;
+    background: #d95f09;
+    margin-top: -60px;
+}
+
+.about-page h2 {
+    color: #D95F09 !important;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 36px;
+    margin: 0;
+    line-height: 40px;
+    line-height: 35px;
+}
+
+.about-our-beers .pattern {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAMUlEQVQYV2NkwAP+AwEjLnmwJAhgUwCTBMlhKECWxFCALomiAJskXAEuSbACfJIgBQCChiAFHxoszgAAAABJRU5ErkJggg==) repeat;
+    color: #fff;
+    position: relative;
+    width: 54%;
+    min-height: 122px;
+    float: left;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.text-our-beers {
+    padding: 5px 30px;
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    width: 460px;
+    margin: 0 auto;
+    left: 53%;
+    line-height: 22px;
+    padding-right: 0px;
+}
+
+.more-our-beers {
+    color: #fff;
+}
+
+.more-our-beers a {
+    color: #502c13;
+    text-decoration: none;
+}
+
+.more-our-beers a:hover {
+    color: #000 !important;
+}
+
+/** ABOUT **/
+.about-us {
+    height: auto;
+    position: relative;
+    background: #502c13;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.about-us .innerpage {
+    height: auto;
+    margin: 0;
+    width: inherit;
+}
+
+.about-us .content {
+    height: inherit;
+}
+
+.scroll {
+    height: auto;
+    overflow: hidden;
+    max-width: 710px;
+    margin: 0px auto;
+}
+
+.about-us .innerpage h2 {
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    margin: 10px 0px 5px;
+    padding: 0px;
+    text-align: center;
+    font-size: 35px;
+    background: none;
+    line-height: 30px;
+    color: #ff6a00;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+#block-mayan-about-us .content {
+    background-image: url('./../img/bg-brown.gif') !important;
+    -moz-box-shadow: 0px 5px 10px 5px #000;
+    -webkit-box-shadow: 0px 5px 10px 5px #000;
+    box-shadow: 0px 5px 10px 5px #000;
+}
+
+.about-us h1 {
+    width: 87px;
+    position: absolute;
+    top: -31px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    padding: 8px 2px 10px 0px;
+    color: #e9e5e1;
+    text-transform: uppercase;
+    background-size: 90px 35px;
+    background-position: 0px -4px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/about-title.png);
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.about-us .pattern {
+    height: 20px;
+}
+
+.col-about {
+    max-width: 46%;
+    float: left;
+    margin: 0 1.94%;
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.col-mteam {
+    max-width: 50%;
+    float: left;
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.innerpage .col-mteam:nth-child(4) p,.innerpage .col-mteam:nth-child(8) p {
+    margin-right: 15px;
+}
+
+.innerpage .col-mteam:nth-child(5) p,.innerpage .col-mteam:nth-child(9) p {
+    margin-left: 15px;
+}
+
+#block-views-last-blog-posts-block {
+    margin-top: -40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    background-color: #fff;
+    -moz-box-shadow: 10px 5px 10px 8px #000;
+    -webkit-box-shadow: 10px 5px 10px 8px #000;
+    box-shadow: 10px 5px 10px 8px #000;
+}
+
+.front #block-views-last-blog-posts-block {
+    position: relative;
+}
+
+.blog-flap {
+    width: 94px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 1;
+    padding: 0px 2px 10px 0px;
+    color: #e9e5e1;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    background-image: url(../img/contact-title.png);
+    background-repeat: no-repeat;
+}
+
+.col-mteam h3 {
+    font-size: 20px;
+    color: #d95f09;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.col-mteam span {
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-style: italic;
+    display: block;
+}
+
+.about-us .patternblog {
+    margin: 20px 0;
+}
+
+.patternblog-small {
+    height: 10px;
+}
+
+.about-us .restangle {
+    width: 220px;
+}
+
+/*** contact ***/
+
+.contact {
+    max-width: 100%;
+    position: relative;
+}
+
+.contact h1 {
+    width: 94px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    padding: 0px 2px 10px 0px;
+    color: #e9e5e1;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    background: url(../img/contact-title.png) no-repeat;
+}
+
+.contact-form, .webform-client-form {
+    margin: 50px auto;
+    padding-left: 0px;
+    text-align: center;
+    width: 50%;
+}
+
+.page-availability {
+    overflow-x: hidden;
+}
+
+.gm-style-iw {
+    left: 0 !important;
+    top: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    text-indent: 10px;
+	/*overflow: hidden;*/;
+}
+
+.gm-style-iw > div ,.gm-iw {
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+.gm-style-iw .gm-addr {
+    margin-top: 10px;
+}
+
+.gm-style-iw > div h4,.gm-style-iw .gm-title {
+    display: block;
+    width: 100%;
+    background-color: #c8590a;
+    color: #fff;
+    padding: 5px 0;
+    margin: 0;
+    margin-left: 0;
+}
+
+.gm-style-iw > div p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*.gm-style-iw > div p:before{
+	content:"Cell:";
+}*/
+.gm-style-iw > div .vcard {
+    text-transform: capitalize;
+}
+
+.gm-style-iw > div .postal-code {
+    margin-left: 10px;
+}
+
+#views-exposed-form-locations-page #edit-postal-code-wrapper label {
+    display: none;
+}
+
+#block-views-exp-locations-page {
+    position: relative;
+    margin-top: -110px;
+    background-color: #fff;
+    width: 300px;
+    margin: auto;
+    height: 55px;
+}
+
+#block-views-exp-locations-page form input {
+    border-radius: 40px;
+    width: 100%;
+}
+
+#block-views-exp-locations-page form  .form-item {
+    padding: 0px;
+}
+
+#block-views-exp-locations-page form .views-submit-button {
+    display: none;
+}
+
+#block-views-exp-locations-pag .views-exposed-widget {
+    float: none;
+    width: 300px;
+    margin: auto;
+}
+
+.form-item label, .contact-form label {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    color: #ff7310;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+input, textarea {
+    border: none;
+    padding: 8px 10px;
+    box-shadow: 1px 0px 4px 2px #eee inset;
+}
+
+.form-item input,
+.form-textarea-wrapper textarea {
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+.contact ul {
+    margin: 50px 0px 0 0;
+}
+
+.form-item, .contact li {
+    clear: both;
+    padding: 20px;
+    margin: 0px;
+    display: block;
+    width: 97%;
+    position: relative;
+}
+
+
+/*remade contact form*/
+
+.top-content {
+    background:#d95f09;
+    padding:10px 0px;
+    margin-top:-30px;
+    -webkit-box-shadow:inset 0px -5px 8px 0px rgba(50,50,50,0.32);
+    -moz-box-shadow:inset 0px -5px 8px 0px rgba(50,50,50,0.32);
+    box-shadow:inset 0px -5px 8px 0px rgba(50,50,50,0.32);
+    z-index:999;
+}
+.in-top-content {
+    max-width:40%;
+    margin:0px auto;
+    font-size:12px;
+    color:#fff;
+}
+.form-item {
+    width:100%;
+    padding:20px 0px;
+}
+.webform-client-form {
+    width:35%
+}
+.form-item input {
+    width:100%;
+}
+.form-item label {
+    float:none;
+    display:block;
+    text-align:center;
+    width:100%;
+}
+.form-textarea-wrapper textarea {
+    width:100%;
+}
+.node-type-webform .form-textarea-wrapper textarea {
+    margin-left:0px;
+}
+.node-type-webform .form-actions {
+    margin:auto 0;
+}
+.mmore {
+    color:#502c13 !important
+}
+.mmore:hover {
+    text-decoration:none !important;
+    color:#502c13 !important
+}
+.title-contact {
+    margin:0px;
+    position:relative;
+    overflow:hidden;
+    height:60px;
+    margin-bottom:-80px;
+}
+.title-round {
+    width:150px;
+    font-weight:normal;
+    border-radius:50%;
+    margin:0px auto;
+    text-align:center;
+    margin-top:-110px;
+    padding:75px 0px;
+    position:relative;
+    background:#d95f09;
+    height:40px;
+    -webkit-box-shadow:inset 0px -5px 8px 0px rgba(50,50,50,0.32);
+    -moz-box-shadow:inset 0px -5px 8px 0px rgba(50,50,50,0.32);
+    box-shadow:inset 0px -5px 8px 0px rgba(50,50,50,0.32);
+}
+.title-round h1 {
+    color:#fff;
+    line-height:80px;
+    font-size:14px;
+    text-transform:uppercase
+}
+@media screen and (max-width:800px) {
+    .in-top-content {
+        max-width:80%;
+        margin:0px auto;
+        font-size:12px;
+        color:#fff;
+    }
+    .webform-client-form {
+        width: 70%
+    }
+}
+
+
+/*** search ***/
+
+.search {
+    max-width: 1000px;
+    margin: 0px auto;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.page-taxonomy .search {
+    margin-top: 0px;
+}
+/*
+.view-product-types .search{
+	margin-top: 3px;
+	position: relative;
+	left: 34%;
+}*/
+.search form {
+    float: right;
+    margin-right: 3%;
+    margin-top: -60px;
+    width: 20%;
+}
+
+.search .form-item {
+    padding: 0;
+}
+
+.search .form-item-keys input[type=text] {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    box-shadow: 0 1px 9px #ebebeb inset;
+    padding: 10px 12px;
+    font-size: 12px;
+    overflow: hidden;
+    top: 27px;
+    position: relative;
+    background: url(../img/icon-search.png) no-repeat 95% 45%;
+}
+
+.form-submit {
+    background-color: #c8590a;
+    box-shadow: 0px 0px;
+    border-radius: 2px;
+    color: white;
+    width: 83%;
+}
+
+.search .views-submit-button {
+    display: none;
+}
+
+.search input[type=submit] {
+    margin-left: -40px;
+    border: 1px solid #efefef;
+    border-right: 0px;
+    border-radius: 60px;
+    box-shadow: none;
+    padding: 9px;
+    background: #f0f0f0;
+    color: #d95f09;
+}
+
+.search input[type=submit]:hover {
+    background: #D95F09;
+    color: #fff;
+}
+
+/*** featured ***/
+.featured-products .view-content {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1000px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-align: center;
+    height: 300px;
+    white-space: nowrap;
+}
+
+.pattern {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAMXo/nPMCKLgQT0l340gQvCBECKwILIAmBBdAGQIABRzBINUTej2wAAAABJRU5ErkJggg==) repeat;
+    width: 100%;
+    clear: both;
+    height: auto !important;
+    position: relative;
+}
+
+.patternblog {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAMXo/nPMCKLgQT0l340gQvCBECKwILIAmBBdAGQIABRzBINUTej2wAAAABJRU5ErkJggg==) repeat;
+    width: 100%;
+    position: relative;
+}
+
+.pattern h1 {
+    -webkit-transform: skew(45deg) !important;
+    -moz-transform: skew(45deg) !important;
+    -o-transform: skew(45deg) !important;
+    transform: skew(45deg) !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.patternblog span {
+    -webkit-transform: skew(45deg) !important;
+    -moz-transform: skew(45deg) !important;
+    -o-transform: skew(45deg) !important;
+    transform: skew(45deg) !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.restangle {
+    background: #D95F09;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    width: 206px;
+}
+
+.goods {
+    display: inline-block;
+    height: 257px;
+    margin: 0;
+    position: relative;
+    width: 160px;
+}
+
+.goods .views-field-title {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.goods:last-child {
+    border: none;
+}
+
+.goods:hover {
+    b1ox-shadow: 0px 1px 10px #222;
+}
+
+.goods img {
+    overflow: hidden;
+    width: 128px;
+    position: relative;
+    left: -7px;
+}
+
+.goods img:hover {
+    opacity: 0.7;
+}
+
+.goods a {
+    display: block;
+    color: #595959;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    width: 170px;
+    padding-left: 4px;
+}
+
+.featured-title-div {
+    border-right: 1px solid #ccc;
+    height: 52px;
+}
+
+div.featured-title-div:last-child {
+    border: none;
+}
+
+.goods:last-child a {
+    background: none;
+}
+
+.page-taxonomy .content .view-products-featured {
+    height: 322px;
+    overflow: hidden;
+}
+
+.page-taxonomy {
+    /*margin-top: 60px;*/
+}
+
+.page-taxonomy-term .page-taxonomy {
+    margin-top: 0px;
+}
+
+.page-node .field-items .drop-shadow p img {
+    max-width: 300px;
+}
+
+.page-node .page-taxonomy,.page-node .view-id-products_featured {
+    width: 100% !important;
+    height: 250px;
+    overflow: hidden;
+    background: #fff;
+ /* Old browsers */
+    background: -moz-linear-gradient(top, #fff 60%, #e0e0e0 80%, #f6f6f6 80%, #fff 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#fff), color-stop(80%,#e0e0e0), color-stop(80%,#f6f6f6), color-stop(100%,#fff));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+ /* IE6-9 */;
+}
+
+.view view-products-featured {
+    background: #fff;
+ /* Old browsers */
+    background: -moz-linear-gradient(top, #fff 60%, #e0e0e0 80%, #f6f6f6 80%, #fff 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#fff), color-stop(80%,#e0e0e0), color-stop(80%,#f6f6f6), color-stop(100%,#fff));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom, #fff 60%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+ /* IE6-9 */
+    display: block;
+    height: 257px;
+    width: 100%;
+}
+
+.region-content .related-products {
+    background: #fff;
+ /* Old browsers */
+    background: -moz-linear-gradient(top, #fff 70%, #e0e0e0 80%, #f6f6f6 80%, #fff 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#fff), color-stop(80%,#e0e0e0), color-stop(80%,#f6f6f6), color-stop(100%,#fff));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fff 70%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 70%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 70%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom, #fff 70%,#e0e0e0 80%,#f6f6f6 80%,#fff 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+ /* IE6-9 */
+    display: block;
+    height: 257px;
+    width: 100%;
+}
+
+.page-taxonomy .content .view-products-featured {
+    background: #fff;
+ /* Old browsers */
+    background: -moz-linear-gradient(top, #fff 60%, #e0e0e0 79%, #f6f6f6 79%, #fff 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#fff), color-stop(79%,#e0e0e0), color-stop(79%,#f6f6f6), color-stop(100%,#fff));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fff 60%,#e0e0e0 79%,#f6f6f6 79%,#fff 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 60%,#e0e0e0 79%,#f6f6f6 79%,#fff 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 60%,#e0e0e0 79%,#f6f6f6 79%,#fff 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom, #fff 60%,#e0e0e0 79%,#f6f6f6 79%,#fff 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+ /* IE6-9 */
+    height: 332px;
+    width: 100%;
+    display: block;
+}
+
+.view-products-featured a > img {
+    width: 100px;
+}
+
+.view-products-featured .goods {
+    height: 235px;
+    margin-top: 56px;
+}
+
+.node-type-brewery .view-products-featured .goods {
+    margin-top: 3px;
+}
+
+.page-breweries span.field-content a {
+    text-decoration: none !important;
+    font-size: 26px !important;
+}
+
+.node-type-brewery .content .center .page {
+    padding: 0.5em 10%;
+}
+
+.node-type-brewery .goods img {
+    position: relative;
+    top: 12px;
+}
+
+.page-taxonomy .view-products-featured .goods {
+    height: 202px;
+    width: 160px;
+}
+
+.page-products .page-taxonomy {
+    height: 270x !important;
+}
+
+/*** Our beers **/
+.view-products .view-content {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+/*
+.view-products .col {
+	display: inline-block;
+	vertical-align:top;
+	overflow: hidden;
+	padding: 0 3%; 
+}
+*/
+.col:last-child {
+    margin-right: 0px;
+}
+
+.col h2 {
+    color: #ef7824;
+    margin-bottom: 4px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.col ul {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.col li {
+    list-style: none;
+}
+
+.col ul li a {
+    list-style: none;
+    color: #595959 !important;
+    text-decoration: none !important;
+}
+
+
+
+/*** Center & COMPANY ***/
+
+.center {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.center p {
+    color: #757575;
+    margin: 1em 0;
+    text-align: justify;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.page {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0.5em 11%;
+}
+
+.content .center .page {
+    padding: 0.5em 0;
+}
+
+#locations {
+    margin-top: 0;
+    height: 600px;
+    background: url('img/bx_loader.gif') center center no-repeat;
+}
+
+.cl-t {
+    color: #d95f09;
+    font-size: 18px;
+}
+
+.drop-shadow {
+    position: relative;
+    overflow: hidden;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+
+/* Curved shadows
+
+.curved:before {
+	top: 10px;
+	bottom: 10px;
+	left: 0;
+	right: 50%;
+	-webkit-box-shadow: 0 3px 5px #bdbdbd;
+	-moz-box-shadow: 0 3px 5px rgba #bdbdbd;
+	box-shadow: 0 3px 5px #bdbdbd;
+	-moz-border-radius: 10px / 100px;
+	border-radius: 10px / 100px;
+}
+
+.curved-vt-2:before {
+	right: 0;
+}
+
+.curved-hz-1:before {
+	top: 50%;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	-moz-border-radius: 100px / 10px;
+	border-radius: 100px / 10px;
+}
+
+.curved-hz-2:before {
+
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	-moz-border-radius: 100px / 10px;
+	border-radius: 100px / 10px;
+}
+*/
+.allcompany {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    width: 90%;
+    margin: auto 5%;
+    display: table;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+/*
+.view-content .allcompany:last-child .companiy {
+    padding-left: 18%;
+}
+
+.view-content .allcompany:last-child .companiy:last-child {
+    padding-right: 18%;
+    padding-left: 2%;
+    padding: 5px 2%;
+    display: block;
+    margin: auto;
+}
+*/
+.allcompany2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.company-centered-div {
+    display: none;
+}
+
+.companiy {
+    width: 33.33%;
+    text-align: center;
+    position: relative;
+    padding: 5px 2%;
+    height: 100%;
+    display: table-cell;
+    border-right: 1px solid #cccccb;
+}
+
+.companiy:last-child {
+    border: none;
+}
+
+.companiy a {
+    text-decoration: none;
+    color: #ff6a00;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.companiy span {
+    font-size: 14px;
+    font-style: italic;
+    color: #595959;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.companiy p {
+    text-align: justify;
+    font-size: 13px;
+    color: #595959;
+    line-height: 22px;
+    margin: 0px;
+}
+
+/*** PRODUCT ***/
+
+.product {
+    max-width: 1000px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 2% 6% 0 4%;
+}
+
+.desc-product {
+    float: left;
+    width: 44%;
+    margin-left: 3.5%;
+}
+
+.title-product {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #d95f09;
+    margin: 20px 0px 20px 0px;
+}
+
+.node-type-brewery .title-product {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #d95f09;
+    margin: 20px 0px 20px 0px;
+    left: -20px;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.page-breweries .view-header {
+    padding: 0% 10%;
+}
+
+span.field-content {
+    width: 100%;
+    display: block;
+}
+
+.goods span.field-content {
+    font-size: 16px;
+    margin-bottom: 4px;
+    width: 100%;
+    display: block;
+}
+
+.col-pro span.field-content a {
+    color: #414141 !important;
+    font-size: 14px !important;
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+
+.col-pro span.field-content {
+    margin-top: 36px;
+}
+
+.goods span.field-content a {
+    color: #414141 !important;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+
+.goods span.field-content a div:nth-child(2) {
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 4px;
+    border-right: 1px solid #ccc;
+    position: relative;
+    top: -11px;
+    padding-right: 20px;
+    text-transform: capitalize;
+    line-height: 20px;
+    white-space: initial;
+    padding-top: 8px;
+}
+
+.goods:last-child span.field-content a div:nth-child(2) {
+    border-right: 0px solid #ccc;
+}
+
+.node-type-brewery .goods span.field-content a div:nth-child(2) {
+    top: 0;
+}
+
+span.field-content a {
+    color: #D95F09 !important;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.views-label-field-address {
+    color: #fff;
+    font-style: italic;
+}
+
+.desc-product p {
+    font-size: 14px;
+    color: #535353;
+    white-space: initial;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 30px;
+}
+
+#block-webform-client-block-5 .content {
+    margin-top: 50px;
+}
+
+.img-product {
+    float: right;
+}
+
+.img-product img {
+    max-width: 370px;
+    width: 80%;
+    margin-top: 25px;
+    float: right;
+}
+
+.view-featured-brewery-image,.node-type-page .content .drop-shadow .field-type-text-with-summary {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+    max-width: 940px;
+    max-height: 500px;
+    padding-bottom: 20px;
+}
+
+
+/*#block-views-product-types-block .view-product-types .bjqs-wrapper ul{
+	position: relative;
+	overflow: hidden;
+}
+#block-views-product-types-block .view-product-types .bjqs-wrapper ul:before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	width: 90%;
+	bottom: -13px;
+	height: 10px;
+	left: 5%;
+	border-radius: 100px / 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.6);
+	border-bottom: 1px solid #ddd;
+}*/
+
+.node-type-page .content .drop-shadow .field-type-text-with-summary {
+    max-height: 700px;
+}
+
+.node-type-page .center {
+    margin: 0px 40px;
+}
+
+.about-page h2 {
+    margin: auto 10px;
+}
+
+.node-type-brewery .content .field-name-field-image {
+    float: left;
+    width: 40%;
+}
+
+.node-type-brewery .content .field-name-field-image img {
+    max-width: 100%;
+}
+
+.node-type-brewery .content .field-name-field-address,.node-type-brewery .content  .field-name-field-is-featured {
+    display: none;
+}
+
+.node-type-brewery .content .field-type-text-with-summary {
+    float: right;
+    max-width: 600px;
+    width: 52%;
+    margin-top: 40px;
+}
+
+.brewery-desc img {
+    float: left;
+    max-width: 160px;
+}
+
+.brewery-desc p {
+    padding: 0px 0px 20px 200px;
+}
+
+.brewery-desc a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.brewery-desc h5 {
+    color: #535353;
+    text-transform: uppercase;
+    padding-left: 200px;
+}
+
+.featured-brewery-image {
+    display: table-cell;
+    width: 40%;
+    margin: 0;
+}
+
+.views-field-field-image .views-field-field-image {
+    width: 100%;
+    display: block;
+    float: none;
+}
+
+.views-field-field-image  .views-field-body {
+    display: table-cell;
+    width: 60%;
+}
+
+.view-featured-brewery-image .views-field-title {
+    position: absolute;
+    margin-left: 55px;
+    left: 50%;
+    top: 20px;
+}
+
+.view-featured-brewery-image .views-field-title a {
+    text-decoration: none !important;
+    font-size: 25px;
+    color: #D95F09;
+}
+
+.view-featured-brewery-image .views-field-field-address .views-label-field-address {
+    display: none;
+}
+
+.view-featured-brewery-image .views-field-field-address .field-content {
+    left: 50%;
+    margin-left: 55px;
+    position: absolute;
+    top: 55px;
+    color: #fff;
+    font-style: italic;
+}
+
+.view-featured-brewery-image  .featured-brewery-description {
+    background: #333;
+    padding: 20px;
+    float: right;
+}
+
+.view-featured-brewery-image  .featured-brewery-description a {
+    color: #D95F09;
+}
+
+.view-featured-brewery-image .views-field-body {
+    vertical-align: top;
+}
+
+.view-featured-brewery-image .views-field-body p {
+    color: #fff;
+}
+
+.view-breweries {
+    margin-top: 40px;
+}
+
+.view-featured-brewery-image:before,.node-type-page .content .drop-shadow .field-type-text-with-summary:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    bottom: -13px;
+    height: 10px;
+    left: 5%;
+    border-radius: 100px / 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+
+
+/** More **/
+.more {
+}
+
+.more .restangle {
+    width: 300px;
+}
+
+.more .pattern h1 {
+    font-size: 18px;
+}
+
+.node-type-webform .form-actions {
+    margin: auto; 
+    position: relative;
+}
+
+.node-type-webform .form-textarea-wrapper textarea {
+    margin-left: 0px;
+}
+
+.node-type-webform .form-actions input {
+    width: 100%;
+}
+
+.node-type-webform .webform-component-message > label {
+    margin-right: 27px;
+}
+
+.more-products {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0;
+    height: 272px;
+    max-width: 100%;
+}
+
+.node-type-product .view-more-products {
+    height: 320px;
+}
+
+.node-type-product .view-more-products .field-content a {
+    white-space: normal;
+    margin: auto;
+    padding-top: 5px;
+    vertical-align: bottom;
+}
+
+.node-type-product .content .more {
+    height: 309px;
+    margin-bottom: 20px;
+    background: #fff;
+ /* Old browsers */
+    background: -moz-linear-gradient(top, #fff 79%, #e0e0e0 100%, #f6f6f6 80%, #fff 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(79%,#fff), color-stop(90%,#e0e0e0), color-stop(80%,#f6f6f6), color-stop(100%,#fff));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fff 79%,#e0e0e0 100%,#f6f6f6 80%,#fff 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 79%,#e0e0e0 100%,#f6f6f6 80%,#fff 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 79%,#e0e0e0 100%,#f6f6f6 80%,#fff 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom, #fff 79%,#e0e0e0 100%,#f6f6f6 80%,#fff 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+ /* IE6-9 */;
+}
+
+.node-type-product .view-content {
+    display: block;
+    height: 330px;
+    width: 100%;
+    margin-top: 19px;
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+body.node-type-product > article{
+    margin-top: 0;
+}
+.field-name-field-show-in-slider {
+    display: none;
+}
+
+.related-products.clearfix {
+    height: 277px;
+    margin-top: 60px;
+}
+
+.view-more-products {
+    height: 260px;
+}
+
+.view-more-products .views-field-field-image img {
+}
+
+.view-related-products .rel-col {
+    margin-top: -2px;
+}
+
+.col-pro {
+    margin: 15px 0 !important;
+    display: inline-block;
+    box-shadow: 0 0 0 0 !important;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.col-pro .views-field-title {
+    border-right: 1px solid #ccc;
+    margin-top: -45px;
+    height: 31px;
+}
+
+.col-pro:last-child .views-field-title {
+    border-right: 0px solid transparent;
+}
+
+.col-pro .field-content {
+    max-height: 296px;
+}
+
+.col-pro img {
+    height: auto;
+    overflow: hidden;
+    max-width: 150px;
+    padding-top: 46px;
+}
+
+.col-pro a {
+    color: #414141;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.col-pro a:hover {
+    text-decoration: underline;
+}
+
+/** RELATED PRODUCTS **/
+.related-products {
+}
+
+.page-products .view-content .col ul {
+    display: inline;
+}
+
+/*
+SHADOW for product slider
+.page-products .content .slider .bjqs{
+
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	margin: auto;
+	max-width: 940px;
+}
+.page-products .content .slider .bjqs:before {
+  	content: "";
+	position: absolute;
+	z-index: 1;
+	width: 90%;
+	bottom: -13px;
+	height: 10px;
+	left: 5%;
+	border-radius: 100px / 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.6);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+.rel-col {
+    max-width: 1000px;
+    padding: 0;
+    margin: 0px auto;
+    position: relative;
+    height: 254px;
+    overflow: hidden;
+} 
+.view-related-products .rel-col {
+    padding-top: 100px;
+}
+
+.view-related-products .view-content {
+    padding-top: 0px;
+}
+
+.related-products .restangle {
+    width: 300px;
+}
+
+.related-products .pattern h1 {
+    font-size: 18px;
+}
+
+.related-products .col > a {
+    border-right: 1px solid #CCCCCC;
+    color: #5F5F5F;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.related-products .col:last-child > a {
+    border-right: 0px solid #CCCCCC;
+}
+
+.img-rel img {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    max-width: 120px;
+}
+
+.img-rel {
+    height: 130px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.rel-col .col {
+    width: 170px;
+    text-align: center;
+    padding: 0;
+    float: none;
+    display: inline-block;
+    margin-top: 22px;
+    position: relative;
+}
+
+/** INNER PAGE **/
+
+.innerpage {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 4%;
+}
+
+.h-desc {
+    background-color: rgba(0, 0, 0, 1) !important;
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+/** PREV - NEXT **/
+.item-list .pager {
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*.item-list .pager li.right,.item-list .pager li.first {
+    margin: 0;
+    width: 200px;
+    display: inline-block;
+    padding: 0px 30px;
+    position: absolute;
+    right: 0;
+    margin-top: -20px;
+}
+
+.item-list .pager li.first {
+    left: 0;
+}*/
+
+.item-list .pager a {
+    text-decoration: none;
+    color: #595959;
+    font-weight: bold;
+}
+
+.item-list .pager .pager-current {
+    display: none;
+}
+ 
+
+/** SEARCH AGAIN **/
+
+.search-again {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.search-again input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    box-shadow: 0 1px 9px #ebebeb inset;
+    padding: 10px 12px;
+    font-size: 12px;
+    overflow: hidden;
+    background: url(../img/icon-search.png) no-repeat 95% 45%;
+}
+
+#search2 {
+}
+
+/* MASONARY */
+
+.grid {
+    margin: 0px auto;
+}
+
+.grid li {
+    list-style: none;
+}
+
+.grid img {
+    max-width: 230px;
+    margin: 5px;
+}
+
+.grid h2 {
+    font-size: 22px;
+}
+
+.grid h2:before {
+    content: "*";
+}
+
+.grid h2:after {
+    content: "*";
+}
+
+.grid li div {
+    display: none;
+    top: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.grid li:hover div {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+.grid li:hover div h2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    text-transform: uppercase;
+    color: #736652;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.box a:hover #hover-desc p:before {
+    content: "*";
+}
+
+.box a:hover #hover-desc p:after {
+    content: "*";
+}
+
+/**** Gutters ****/
+
+.has-gutters .box {
+    margin: 5px 0;
+}
+
+.has-gutters .col1 {
+    width: 90px;
+}
+
+.has-gutters .col2 {
+    width: 230px;
+}
+
+.has-gutters .col3 {
+    width: 370px;
+}
+
+.has-gutters .col4 {
+    width: 550px;
+}
+
+/**** Transitions ****/
+
+.transitions-enabled.masonry,
+.transitions-enabled.masonry .masonry-brick {
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.transitions-enabled.masonry {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.transitions-enabled.masonry .masonry-brick {
+    -webkit-transition-property: left, right, top;
+    -moz-transition-property: left, right, top;
+    -o-transition-property: left, right, top;
+    transition-property: left, right, top;
+}
+
+/* disable transitions on container */
+.transitions-enabled.infinite-scroll.masonry {
+    -webkit-transition-property: none;
+    -moz-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+}
+
+/**** Primer comparison ****/
+
+#comparison {
+    overflow: auto;
+}
+
+#comparison .example {
+    width: 420px;
+    float: left;
+    margin-right: 20px;
+}
+
+#comparison .box h5 {
+    float: left;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-right: 4px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* Tumblelog example */
+
+#tumblelog {
+    background: #FFF;
+    padding: 1.0em;
+}
+
+#tumblelog .story {
+    margin: 10px;
+    border-top: 4px solid #DCB;
+    padding-top: 10px;
+    background: #FFF;
+    float: left;
+}
+
+#tumblelog h1, #tumblelog h2, #tumblelog h3 {
+    font-weight: bold;
+}
+
+#tumblelog .col1 {
+    width: 220px;
+}
+
+#tumblelog .col2 {
+    width: 460px;
+}
+
+#tumblelog .col3 {
+    width: 700px;
+}
+
+#tumblelog .col1 img,
+#tumblelog .col2 img,
+#tumblelog .col3 img {
+    max-width: none;
+}
+
+/* Infinite Scroll loader */
+#infscr-loading {
+    z-index: 5000;
+    position: fixed;
+    left: 40%;
+    bottom: 40px;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background: #000;
+    opacity: 0.8;
+    color: #FFF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/*** CONTENT BLOG ***/
+
+.content-blog {
+	/*max-width: 700px;*/
+    margin: 0px auto;
+}
+
+.blog {
+    margin: 0px auto;
+    max-width: 960px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blog .links {
+    display: none !important;
+}
+
+.blog iframe {
+    height: 20px !important;
+}
+
+.blog h1 {
+    border-bottom: 1px solid #ff6900;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.blog h1 a {
+    color: #ff6a00;
+    font-size: 28px;
+    text-decoration: none !important;
+}
+
+.blog a:hover {
+    text-decoration: underline;
+}
+
+.blog p {
+    padding-bottom: 6px;
+    margin: 5px;
+    color: #636363;
+    font-size: 14px;
+}
+
+/** FOOTER **/
+footer {
+    background: #502c13;
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+
+.footer .active-trail > a {
+    border-right: 0px solid #fff;
+    padding: 0;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #c8590a;
+    overflow: hidden;
+}
+
+.front footer {
+    margin-top: -50px;
+    position: relative;
+}
+
+.footer .block-menu {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 60%;
+}
+
+.footer .block-menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .block-menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.footer .block-menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    padding-right: 20px;
+    margin: 0px;
+    text-decoration: none !important;
+    border-right: 1px solid #fff;
+}
+
+.footer .block-menu ul li:last-child a {
+    border: none;
+}
+
+.col-pro:hover {
+    box-shadow: 0px 0px 10px #aaa;
+    opacity: 0.9;
+}
+
+.img-rel > a {
+}
+
+.footer .block-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1020px) {
+    .blog {
+        padding: 0px 20px;
+    }
+}
+/*@media screen and (max-width: 985px){
+
+	#locations{
+		margin-top: -165px;
+	}
+}*/
+
+@media screen and (max-width: 960px) {
+	
+    .text-our-beers {
+        width: 400px;
+    }
+
+    .about-our-beers .pattern {
+        min-height: 122px;
+    }
+
+    .page-node .field-items .drop-shadow p img {
+        display: none;
+    }
+
+    .page-taxonomy .view-content {
+    }
+	/*.goods {
+		border: none;
+		float: left;
+		margin: 10px;
+		width: 40%;
+	}*/
+    .form-item label, .contact-form label {
+        float: none;
+        margin-right: auto;
+        margin: auto;
+        display: block;
+    }
+
+    .node-type-webform .form-textarea-wrapper textarea {
+        margin: auto;
+    }
+
+    .node-type-webform .form-actions { 
+        position: relative; 
+    }
+
+    .node-type-webform .webform-component-message > label {
+        margin-right: 92px;
+    }
+
+    .search form {
+        float: none;
+        margin-right: 0px;
+        top: -20px;
+        width: 200px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .page-taxonomy {
+        margin-top: 0px;
+    }
+
+    .node-type-page .content .drop-shadow .field-type-text-with-summary .drop-shadow p img {
+        clear: both;
+        float: none !important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .about-our-beers .pattern {
+        width: 56%;
+        min-height: 142px;
+    }
+
+    .text-our-beers {
+        padding: 5px 40px;
+        width: 360px;
+        left: 53%;
+    }
+
+    .about-our-beers {
+        min-height: 140px;
+    }
+
+    .view-featured-brewery-image .views-field-body p {
+    }
+
+    .view-featured-brewery-image .views-field-title {
+        margin-left: 20px;
+    }
+
+    .view-featured-brewery-image .views-field-field-address .field-content {
+        margin-left: 20px;
+    }
+}
+/*** MOBILE ***/
+
+@media screen and (max-width: 800px) {
+
+
+    .text-our-beers {
+        padding: 5px 20px;
+        width: 100%;
+        left: 0;
+        position: relative;
+        height: 110px;
+    }
+
+    .img-product img {
+        float: none;
+        width: 100%;
+    }
+
+    .page-taxonomy .view-content-hider {
+        height: 220px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .goods {
+        display: inline-block;
+    }
+
+    #header #block-system-main-menu ul {
+		/*display:none; */;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+
+    .desc-product {
+        width: auto;
+        float: none;
+        margin: 0px;
+    }
+
+    .img-product {
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+
+    .col-pro {
+        margin: 15px 0;
+    }
+
+    .contact-form label {
+        float: none;
+    }
+
+    #search {
+        float: none;
+        margin: 30px auto 10px auto;
+        width: 200px;
+    }
+
+	/*.goods {
+		border: none;
+		float: left;
+		margin: 0 4%;
+		width: 40%;
+	}*/
+
+    .col ul li {
+        list-style: none;
+    }
+
+    .allcompany2 {
+        margin: 0px;
+    }
+
+    .about-our-beers .pattern {
+        display: none;
+    }
+
+    .mean-bar {
+        display: inline;
+        float: left;
+        width: 100%;
+        position: fixed;
+        background: #0c1923;
+        padding: 4px 0;
+        min-height: 42px;
+        z-index: 999999;
+    }
+
+    .mean-bar, .mean-bar * {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+
+    .mean-bar {
+        position: absolute;
+        background: transparent;
+        z-index: 1;
+    }
+
+    a.meanmenu-reveal {
+        width: 40px;
+        padding: 12px 16px 20px;
+        line-height: 32px;
+        text-align: right !important;
+    }
+
+    a.meanmenu-reveal {
+        width: 22px;
+        height: 22px;
+        padding: 13px 13px 11px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        text-indent: -9999em;
+        line-height: 22px;
+        font-size: 1px;
+        display: block;
+        font-family: Arial,Helvetica,sans-serif;
+        font-weight: 700;
+    }
+
+    .mean-nav ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .mean-nav ul li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .mean-nav ul li {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .mean-nav ul li a {
+        border-top: 1px dashed rgba(215,115,68,0.4) !important;
+        font-style: italic;
+        font-size: 22px;
+        line-height: 22px;
+        padding: 0.6em 4% 0.55em !important;
+        width: 92% !important;
+    }
+
+    .mean-nav ul li a {
+        display: block;
+        float: left;
+        width: 90%;
+        padding: 1em 5%;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+        border-top: 1px solid #383838;
+        border-top: 1px solid rgba(255,255,255,.5);
+        text-decoration: none !important;
+        text-transform: uppercase;
+    }
+
+    .mean-nav ul li a:hover {
+        text-decoration: none !important;
+        ;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .col {
+        text-align: center;
+        float: left;
+        width: 40%;
+    }
+
+    .featured-brewery-image > a, .featured-brewery-image > a > img {
+        float: none;
+        margin: 0px auto;
+        width: 100% !important;
+    }
+
+    .view-featured-brewery-image .views-field-title {
+        position: relative;
+        top: -190px;
+        left: 40px;
+    }
+
+    .view-featured-brewery-image .views-field-field-address .field-content {
+        left: 40px;
+        position: relative;
+        top: -185px;
+    }
+
+    .scroll {
+        overflow: hidden;
+        max-width: 100%;
+        margin: 0px auto;
+    }
+
+    .view-featured-brewery-image .views-field-field-image,.view-featured-brewery-image  .views-field-body {
+        display: block;
+        width: 100%;
+    }
+
+    .view-featured-brewery-image  .views-field-body {
+        margin: auto 40px;
+        width: auto;
+    }
+
+    .view-featured-brewery-image {
+        max-height: 1000px;
+    }
+}
+
+@media screen and (max-width: 676px) {
+
+    .view-featured-brewery-image .views-field-title {
+        top: -210px;
+    }
+
+    .view-featured-brewery-image .views-field-field-address .field-content {
+        top: -205px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    
+ 
+
+    .col-pro a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .col-mteam {
+        max-width: 100% !important;
+    }
+
+    .about-page h2 {
+        text-align: center;
+    }
+
+    .innerpage .col-mteam:nth-child(4) p,.innerpage .col-mteam:nth-child(8) p {
+        margin-right: 0;
+    }
+
+    .innerpage .col-mteam:nth-child(5) p,.innerpage .col-mteam:nth-child(9) p {
+        margin-left: 0;
+    }
+
+    .region-content {
+		/*padding-top: 80px;*/;
+    }
+
+    .node-type-brewery .field-name-field-image img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .node-type-brewery .content .field-name-field-image {
+        float: none;
+    }
+
+    .allcompany {
+        border: 0px solid transparent;
+    }
+
+    .companiy {
+        width: 100%;
+        clear: both;
+        display: block;
+        border: 0px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .col-about {
+        max-width: 100%;
+    }
+
+    .col-mteam {
+        max-width: 100%;
+    }
+
+    .form-item label, .contact-form label,.form-item label, .contact-form input {
+        float: none;
+    }
+
+    .form-item input, .form-textarea-wrapper textarea {
+        margin: 0px auto;
+    }
+
+    .scroll {
+        height: inherit;
+    }
+
+    .about-us {
+        height: auto;
+    }
+
+    .page {
+        margin-top: 10px;
+    }
+	/*#locations{
+		margin-top: -225px;
+	}*/;
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .node-type-brewery .content .field-name-field-image {
+        float: none;
+        width: 100%;
+    }
+
+    .node-type-brewery .title-product {
+        left: 0;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .node-type-brewery .content .field-type-text-with-summary {
+        float: none;
+        width: 100%;
+    }
+
+    .featured-products {
+        overflow: hidden;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .col {
+        width: 40%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-our-beers {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .about-our-beers .pattern {
+        display: none;
+    }
+
+    .text-our-beers {
+        max-width: 100%;
+    }
+
+    .bjqs-caption p {
+        display: none;
+    }
+
+    .bjqs-caption h1 {
+        font-size: 16px;
+    }
+
+    .col li {
+        list-style: none;
+    }
+
+	/*.goods {
+		float: none;
+		text-align: center;
+		margin: 0px;
+		width: 200px;
+		display: inline-block;
+		border: none;
+	}*/
+
+    .center p {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .node-type-page .center {
+        margin: 0 !important;
+    }
+
+    .view-products-featured .goods {
+        width: 100%;
+    }
+
+    .page-node .page-taxonomy, .page-node .view-id-products_featured {
+        height: auto;
+        background: none;
+    }
+
+    .node-type-brewery .view-products-featured .goods {
+        width: 160px;
+    }
+
+    .node-type-brewery .view-id-products_featured {
+        height: 250px;
+    }
+
+    .featured-title-div {
+        border: none;
+    }
+
+    .goods span.field-content a {
+        display: block;
+        margin: 0px auto;
+    }
+
+    .node-type-brewery .title-product {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .view-featured-brewery-image .views-field-title {
+        top: -215px;
+        left: 0px;
+    }
+
+    .view-featured-brewery-image .views-field-field-address .field-content {
+        left: 0px;
+        top: -215px;
+    }
+
+    .view-featured-brewery-image .views-field-body {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .view-featured-brewery-image .views-field-title {
+        top: -210px;
+    }
+
+    .view-featured-brewery-image .views-field-field-address .field-content {
+        top: -205px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .contact-form, .webform-client-form {
+        width: 80%;
+    }
+
+    .node-type-webform .form-actions { 
+        position: relative;
+        max-width: 100%;
+    }
+
+    .node-type-product .brewery-desc img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .brewery-desc img {
+        float: none;
+        width: 100%;
+    }
+
+    .brewery-desc h5 {
+        padding-left: 0;
+    }
+
+    .form-submit {
+        width: 85%;
+        margin-left: -10px;
+    }
+
+    .brewery-desc img {
+        max-width: auto;
+    }
+
+    .brewery-desc p {
+        padding: 0px 0px 20px 20px;
+    }
+
+    .featured-products {
+        overflow: hidden;
+        width: 100%;
+		/*height: 235px;*/;
+    }
+
+    .page-products .view-products .view-content .product-arrow {
+        display: inline;
+    }
+
+    .page-products .view-products .view-content {
+        background-color: #F5F5F5;
+        margin-top: -14px;
+        margin-bottom: 0px;
+    }
+
+    .page-products .view-products .view-content .col {
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #fff;
+        cursor: pointer;
+    }
+
+    .page-products .view-products .view-content .col h2 {
+        text-align: left;
+        text-indent: 10px;
+        margin: 10px;
+        margin-left: 10px;
+    }
+
+    .page-products .view-products .view-content .col .views-field-title {
+        text-align: left;
+        text-indent: 31px;
+    }
+
+    .page-products .view-products  .view-content {
+        border-bottom: 1px solid #fff;
+        border-top: 1px solid #ccc;
+    }
+
+    .page-products .view-content .col ul {
+        display: block !important;
+    }
+
+    .center p {
+    }
+
+    .page-breweries .center p {
+    }
+
+    .form-item input, .form-textarea-wrapper textarea {
+        width: 100%;
+    }
+
+    .view-products .col {
+        display: block;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .node-type-brewery .view-products .col {
+        text-align: left;
+        text-indent: 20px;
+    }
+
+    .node-type-brewery .view-products .col ul {
+        margin-left: 20px;
+    }
+
+    .featured-products {
+        overflow: hidden;
+    }
+
+    .footer .block-menu ul li a {
+        border-right: 1px solid transparent;
+    }
+
+    .footer .block-menu {
+        width: 90%;
+    }
+
+    .footer .block-menu ul li {
+        float: none;
+        padding: 4px 10px;
+        margin: 0px;
+        border-top: 1px solid #7A4621;
+        border-bottom: 1px solid #3D1900;
+    }
+
+    .footer .block-menu ul {
+        margin: 0px !important;
+        border-bottom: 1px solid #7A4621;
+        border-top: 1px solid #3D1900;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .featured-products {
+        overflow: hidden;
+    }
+}
+
+.disclaimer {
+    background: url("../images/21.png") no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+/*
+Overrides
+*/
+.views-exposed-form .views-exposed-widget {
+    padding: 0px !important;
+    margin: 0 auto;
+    width: 300px;
+    float: none;
+}
+
+/* start chad overrides */
+
+/* are you 21 box */
+
+.fancybox-close {
+    display: none;
+}
+
+.fancybox-wrap {
+    min-width: 320px;
+    top: 150px!important;
+}
+
+.fancybox-inner {
+    width: auto!important;
+}
+
+.fancybox-inner .message h1 {
+    font-size: 36px;
+}
+
+.fancybox-skin {
+    padding: 0!important;
+}
+
+.action-links.confirm {
+    margin: 22px 0px 16px;
+}
+
+.action-links.confirm a:hover {
+    background: #767676;
+    text-decoration: none!important;
+    color: white!important;
+}
+
+.fancybox-overlay {
+    z-index: 147483647;
+}
+
+/* footer */
+
+#block-menu-menu-footer li a a.active-trail {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.mean-bar .mean-nav .header-active-link,.mean-bar .mean-nav .active-trail .active:first-child {
+    display: none !important;
+}
+
+.mean-bar {
+    margin-top: 60px;
+}
+
+.mean-nav {
+    margin-top: 15px;
+}
+
+a.meanmenu-reveal {
+    top: -60px;
+}

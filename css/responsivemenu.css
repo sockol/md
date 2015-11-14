@@ -1,0 +1,483 @@
+/*! #######################################################################	MeanMenu 2.0.6	--------		To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)####################################################################### */
+a.meanmenu-reveal {
+	display:none
+}
+.mean-bar {
+	float:left;
+	width:100%;
+	position:absolute;
+	padding:4px 0;
+	min-height:42px;
+	z-index:9999;
+}
+ a.meanmenu-reveal {
+	width:34px;
+	height:22px;
+	font-size:32px !important;
+	padding:13px 13px 11px;
+	position:absolute !important;
+	right:0;
+	cursor:pointer;
+	color:#fff !important;
+	text-decoration:none !important;
+	font-size:16px;
+	text-indent:-9999em;
+	line-height: 15px;
+	display:block;
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:700
+}
+a.meanmenu-reveal:hover {
+	color:#fff;
+
+}
+ a.meanmenu-reveal span {
+	display:block;
+	background:#fff;
+	height:5px;
+	margin-top:5px
+}
+ .mean-nav {
+	float:left;
+	width:100%;
+	background:#0c1923;
+	margin-top:15px
+}
+ .mean-nav ul {
+	padding:0;
+	margin:0;
+	width:100%;
+	list-style-type:none
+}
+ .mean-nav ul li {
+	position:relative;
+	float:left;
+	width:100%
+}
+
+
+ .mean-nav ul li a {
+	display:block;
+	float:left;
+	width:90%;
+	padding:1em 5%;
+	margin:0;
+	text-align:left;
+	color:#fff !important;
+	border-top:1px solid #383838;
+	border-top:1px solid rgba(255,255,255,.5);
+	text-decoration:none;
+	text-transform:uppercase
+}
+ .mean-nav ul li li a {
+	width:80%;
+	padding:1em 10%;
+	border-top:1px solid #f1f1f1;
+	border-top:1px solid rgba(255,255,255,.25);
+	opacity:.75;
+	filter:alpha(opacity=75);
+	text-shadow:none!important;
+	visibility:visible
+}
+ .mean-nav ul li.mean-last a {
+	border-bottom:0;
+	margin-bottom:0
+}
+ .mean-nav ul li li li a {
+	width:70%;
+	padding:1em 15%
+}
+ .mean-nav ul li li li li a {
+	width:60%;
+	padding:1em 20%
+}
+ .mean-nav ul li li li li li a {
+	width:50%;
+	padding:1em 25%
+}
+ .mean-nav ul li a:hover {
+	color:#fff;
+	background:#252525;
+}
+ .mean-nav ul li a.mean-expand {
+	margin-top:1px;
+	width:26px;
+	height:32px;
+	padding:12px!important;
+	text-align:center;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:2;
+	font-weight:700;
+	background:rgba(255,255,255,.1);
+	border:0!important;
+	border-left:1px solid rgba(255,255,255,.4)!important;
+	border-bottom:1px solid rgba(255,255,255,.2)!important
+}
+ .mean-nav ul li a.mean-expand:hover {
+	background:rgba(0,0,0,.9)
+}
+ .mean-push {
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	clear:both
+}
+.mean-nav .wrapper {
+	width:100%;
+	padding:0;
+	margin:0
+}
+ .mean-bar, .mean-bar * {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box
+}
+.mean-remove {
+	display: none!important
+}
+
+.mean-nav ul li:hover,.mean-nav ul li a:hover {
+	background-color:#472711 !important;
+}
+
+.fancybox-overlay {
+	z-index: 147483647;
+}
+.fancybox-opened {
+	z-index: 147483648;
+}
+
+.fancybox-inner .message {
+	box-shadow: none;
+	border-radius: 0;
+}
+
+/* chad custom styles */
+
+footer {
+	padding: 0 0 10px;
+	margin-top: 0px;
+}
+
+.text-our-beers {
+	padding: 10px 30px 5px;
+	width: 439px;
+	line-height: 20px;
+}
+.blog p {
+padding-bottom: 6px;
+margin: 0 0 10px 0;
+color: #636363;
+font-size: 18px;
+line-height: 32px;
+}
+
+.blog h1 {
+border-bottom: 1px solid #ff6900;
+padding-bottom: 10px;
+margin-bottom: 20px;
+line-height: 32px;
+}
+
+.front ol.bjqs-markers.h-centered {
+	text-align: right;
+	display: none;
+}
+
+.innerpage {
+max-width: 1000px;
+margin: 0px auto;
+padding: 0;
+}
+
+.scroll {
+height: auto;
+overflow: hidden;
+max-width: 1000px;
+margin: 0px auto;
+padding: 50px 20px 20px 20px;
+}
+
+::selection {
+	background: #d95f09; /* Safari */
+	}
+::-moz-selection {
+	background: #d95f09; /* Firefox */
+}
+
+.about-us .innerpage h2 {
+text-transform: uppercase;
+width: 100%;
+position: relative;
+margin: 0;
+padding: 0;
+text-align: center;
+font-size: 56px;
+background: none;
+line-height: 56px;
+color: #ff6a00;
+font-weight: normal;
+font-style: italic;
+letter-spacing: 1px;
+text-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.col-mteam {
+max-width: 50%;
+float: left;
+color: #fff;
+font-size: 16px;
+line-height: 32px;
+text-align: left;
+}
+
+.about-us .patternblog {
+margin: 20px 0 15px;
+}
+
+.blog-flap {
+color: #FFFFFF;
+}
+
+.footer .block-menu {
+display: inline-block;
+margin: 0 auto;
+overflow: hidden;
+width: auto;
+}
+
+.footer .block-menu ul li a {
+padding: 0px 5px;
+padding-right: 15px;
+}
+
+/*@media screen and (max-width: 480px) {
+	.footer .block-menu {
+		width: 100%;
+	}
+}*/
+
+
+
+#block-block-1 p,
+.front footer {
+	margin-top: 0;
+	line-height: 18px;
+}
+
+footer {
+	padding: 0;
+	background-image: url('./../img/bg-brown.gif');
+}
+
+.footer .block-menu {
+
+margin-top: 8px;
+margin-bottom: 4px;
+}
+
+@media screen and (max-width: 480px) {
+	.footer .block-menu ul {
+		margin: 0px !important;
+		border-bottom: none;
+		border-top: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer .block-menu ul li {
+	 float: left;
+	 padding: 0.2em 0.5em 0 0;
+	 margin: 0 0 0 0.5em;
+	 border-top: none;
+	 border-bottom: none;
+	}
+	.footer .block-menu ul li a {
+	 padding-left: 4px;
+	 padding-right: 4px;
+	}
+}
+
+.front .content-blog iframe {
+	display: none;
+}
+
+.center p {
+	text-align: left;
+}
+
+.node-type-brewery .title-product {
+	left: -17px;
+}
+
+.node-type-page .center {
+	margin: auto;
+}
+
+#block-views-last-blog-posts-block {
+	padding-top: 25px!important;
+}
+
+.more-blogs {
+	color: #ff6a00!important;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.front .view-last-blog-posts .view-footer p {
+	text-align: center;
+}
+
+.about-page h2 {
+ margin: 0;
+color: grey!important;
+margin-bottom: 26px;
+}
+
+.about-page {
+	margin: 0 20px;
+}
+
+.about-page p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.page-products-search .innerpage {
+	margin-top: 25px;
+}
+
+.page-node-641 .center {
+	min-height: 500px;
+}
+
+.page-node-641 .center p {
+	text-align: center;
+}
+
+#header {
+	position: relative;
+}
+
+.front > article,
+.page-availability > article,
+.page-taxonomy-term > article {
+	margin-top: 0!important;
+}
+
+
+.region-content {
+padding-top: 0!important;
+}
+
+.view-featured-brewery-image, .node-type-page .content .drop-shadow .field-type-text-with-summary {
+	padding-bottom: 40px;
+}
+
+.view-id-products .view-content {
+	width: 95%!important;
+	margin-bottom: 20px!important;
+}
+
+.view-id-products .view-content div.col {
+	/*max-width:220px*/
+	}
+
+.col-mteam,
+.text-our-beers,
+#header #block-system-main-menu ul li a {
+	font-weight: 300;
+}
+
+.desc-product {
+	margin-bottom: 15px;
+}
+
+.view-product-types .bjqs-slide {
+	padding-bottom: 0;
+}
+
+.bjqs-caption {
+		padding: 2%;
+}
+
+.bjqs-caption p,
+.bjqs-caption .taxonomy-term-description {
+		margin-bottom: 0;
+}
+
+.front .bjqs-caption {
+	padding: 2%;
+	width: 44%;
+}
+
+
+.front .bjqs-caption p {
+	margin-bottom: 0;
+	font-size: 15px;
+font-weight: 300;
+line-height: 23px;
+}
+
+@media screen and (max-width: 880px) {
+	.about-our-beers .pattern {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+.about-our-beers {
+height: auto;
+padding-bottom: 25px;
+}
+}
+
+ol.bjqs-markers {
+	/*width: 280px;*/
+	width: 200px;
+}
+ol.bjqs-markers li:last-child {
+	display:none;
+}
+ul.bjqs li img {
+	margin-bottom: -12px;
+}
+
+.view-featured-brewery-image .views-field-body p {
+	margin-bottom: 0;
+}
+
+.blog img,
+.view-last-blog-posts img,
+.node-type-article img {
+	margin: 0 auto 20px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.node-type-product .view-more-products .field-content a {
+padding-top: 8px;
+line-height: 15px;
+}
+
+/*.about-us h1 {
+width: 100px;
+position: absolute;
+top: -40px;
+left: 0;
+right: 0;
+margin: 0px auto;
+padding: 20px 0px 10px 0px;
+color: #e9e5e1;
+text-transform: uppercase;
+ background-size: auto;
+ background-position: 0% 0%;
+text-align: center;
+background-repeat: no-repeat;
+font-weight: normal;
+font-size: 14px;
+}*/

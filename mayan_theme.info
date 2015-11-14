@@ -1,0 +1,16 @@
+name = Mayan
+description = Theme for mayan.com.
+core = 7.x
+stylesheets[screen][] = css/normalize.css
+stylesheets[screen][] = css/style.css
+stylesheets[screen][] = css/responsivemenu.css 
+scripts[] = js/jquery.meanmenu.min.js
+scripts[] = js/responsive_menus_mean_menu.js
+scripts[] = js/slider.js
+scripts[] = js/jquery.cookie.js
+scripts[] = js/m/classie.js
+scripts[] = js/m/AnimOnScroll.js
+scripts[] = js/m/masonry.pkgd.min.js
+scripts[] = js/m/imagesloaded.js
+regions[content] = Content
+regions[footer] = Footer
